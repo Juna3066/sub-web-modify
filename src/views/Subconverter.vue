@@ -800,22 +800,22 @@ export default {
         nodeList: false,
         extraset: false,
         tls13: false,
-        udp: false,
+        udp: true,
         xudp: false,
         tfo: false,
-        sort: false,
+        sort: true,
         expand: true,
-        scv: false,
-        fdn: false,
+        scv: true,
+        fdn: true,
         appendType: false,
         insert: false, // 是否插入默认订阅的节点，对应配置项 insert_url
         new_name: true, // 是否使用 Clash 新字段
         tpl: {
           surge: {
-            doh: false // dns 查询是否使用 DoH
+            doh: true // dns 查询是否使用 DoH
           },
           clash: {
-            doh: false
+            doh: true
           },
           singbox: {
             ipv6: false
