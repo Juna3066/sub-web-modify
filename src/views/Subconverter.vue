@@ -357,6 +357,19 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "JUN规则",
+            options: [
+              {
+                label: "JUN_Online_MultiCountry_CF 识别港美地区、CloudFlareCDN 负载均衡 Worker节点专用(与Github同步)",
+                value: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_MultiCountry_CF.ini"
+              },
+              {
+                label: "JUN_ACL4SSR_Online_Mannix_No_DNS_Leak",
+                value: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_Mannix_No_DNS_Leak.ini"
+              }
+            ]
+          },        
+          {
             label: "CM规则",
             options: [
               {
