@@ -360,11 +360,11 @@ export default {
             label: "JUN规则",
             options: [
               {
-                label: "JUN_Online_Full_CF [识别多地区;CloudFlareCDN分组(urltest);增强中国IP段/国外GFW(支持)]",
+                label: "JUN_Online_Full_CF [识别多地区;CloudFlareCDN分组(urltest);【支持 增强中国IP段/国外GFW】]",
                 value: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_Full_CF.ini"
               },
               {
-                label: "JUN_Online_MultiCountry_CF [识别港日美;CloudFlareCDN分组(loadbalance);增强中国IP段/国外GFW(不支持)]",
+                label: "JUN_Online_MultiCountry_CF [识别港日美;CloudFlareCDN分组(loadbalance);【不支持 增强中国IP段/国外GFW】]",
                 value: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_MultiCountry_CF.ini"
               }
             ]
@@ -373,7 +373,7 @@ export default {
             label: "CM规则",
             options: [
               {
-                label: "CM_Online 默认版 识别港美地区(与Github同步)",
+                label: "CM_Online 默认版 识别港美地区(与Github同步)【项目初始默认】",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
               },
               {
@@ -385,7 +385,7 @@ export default {
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry_CF.ini"
               },
               {
-                label: "CM_Online_Full 识别多地区分组(与Github同步)",
+                label: "CM_Online_Full 识别多地区分组(与Github同步)【开始支持 增强中国IP段/国外GFW】",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full.ini"
               },
               {
@@ -802,8 +802,7 @@ export default {
         // customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
         customBackend: this.getUrlParam() == "" ? "https://ccsubapi.8008088.xyz" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        //remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full.ini",
+        remoteConfig: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_Full_CF.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
