@@ -360,12 +360,12 @@ export default {
             label: "JUN规则",
             options: [
               {
-                label: "JUN_Online_MultiCountry_CF 识别港美地区、CloudFlareCDN 负载均衡 Worker节点专用(与Github同步)",
-                value: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_MultiCountry_CF.ini"
+                label: "JUN_Online_Full_CF [识别多地区;CloudFlareCDN分组(urltest);增强中国IP段/国外GFW(支持)]",
+                value: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_Full_CF.ini"
               },
               {
-                label: "JUN_ACL4SSR_Online_Mannix_No_DNS_Leak",
-                value: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_Mannix_No_DNS_Leak.ini"
+                label: "JUN_Online_MultiCountry_CF [识别港日美;CloudFlareCDN分组(loadbalance);增强中国IP段/国外GFW(不支持)]",
+                value: "https://raw.githubusercontent.com/Juna3066/SubConvertConfig/refs/heads/main/ACL4SSR_Online_MultiCountry_CF.ini"
               }
             ]
           },        
